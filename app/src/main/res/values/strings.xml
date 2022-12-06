@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Atiqul Islam</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">A namespace name is a uniform resource identifier (URI). Typically, the URI chosen for the namespace of a given XML vocabulary describes a resource under the control of the author or organization defining the vocabulary, such as a URL for the author\'s Web server. However, the namespace specification does not require nor suggest that the namespace URI be used to retrieve information; it is simply treated by an XML parser as a string. For example, the document at http://www.w3.org/1999/xhtml itself does not contain any code. It simply describes the XHTML namespace to human readers. Using a URI (such as "http://www.w3.org/1999/xhtml") to identify a namespace, rather than a simple string (such as "xhtml"), reduces the probability of different namespaces using duplicate identifiers.
+
+Although the term namespace URI is widespread, the W3C Recommendation refers to it as the namespace name. The specification is not entirely prescriptive about the precise rules for namespace names (it does not explicitly say that parsers must reject documents where the namespace name is not a valid Uniform Resource Identifier), and many XML parsers allow any character string to be used. In version 1.1 of the recommendation, the namespace name becomes an Internationalized Resource Identifier, which licenses the use of non-ASCII characters that in practice were already accepted by nearly all XML software. The term namespace URI persists, however, not only in popular usage, but also in many other specifications from W3C and elsewhere.
+
+Following publication of the Namespaces recommendation, there was an intensive debate about how a relative URI should be handled, with some intensely arguing that it should simply be treated as a character string, and others arguing with conviction that it should be turned into an absolute URI by resolving it against the base URI of the document.[3] The result of the debate was a ruling from W3C that relative URIs were deprecated.[4]
+
+The use of URIs taking the form of URLs in the http scheme (such as http://www.w3.org/1999/xhtml) is common, despite the absence of any formal relationship with the HTTP protocol. The Namespaces specification does not say what should happen if such a URL is dereferenced (that is, if software attempts to retrieve a document from this location). One convention adopted by some users is to place an RDDL document at the location.[5] In general, however, users should assume that the namespace URI is simply a name, not the address of a document on the Web.</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done_button_text">Done</string>
+</resources>
